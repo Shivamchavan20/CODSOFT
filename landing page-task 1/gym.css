@@ -1,0 +1,258 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color:rgb(128, 128, 128);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(128, 128, 128);
+  padding: 22px;
+  box-shadow: 0px 2px 6px 2px rgb(128, 128, 128);
+  color: white;
+}
+nav ul li a{
+  margin-inline: 22px;
+  text-decoration: none;
+  color: white;
+}
+ul li{
+  list-style: none;
+}
+nav ul{
+  margin-right: 63px;
+  margin-top: 6px;
+}
+.logo{
+  font-size: 25px;
+  margin-left: 33px;
+  color: rgb(135, 206, 235);
+}
+ul li button{
+  width: 100px;
+  height: 33px;
+  background-color: rgb(135, 206, 235);
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+ul li button:hover{
+  border: 2px solid white;
+  background-color: transparent;
+  color: rgb(135, 206, 235);
+  cursor: pointer;
+}
+ul li a:hover{
+  color: rgb(135, 206, 235);
+  border-bottom: 2px solid rgb(135, 206, 235); ;
+}
+/* main Section */
+.home{
+  display: flex;
+  justify-content: center;
+}
+.home img{
+  width: 40%;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.rounded-image {
+  border-radius: 20px; 
+}
+.home .homeText{
+  margin-top: 200px;
+  margin-left: 44px;
+}
+.homeText h1{
+  font-size: 85px;
+  color: rgb(135, 206, 235);
+}
+.homeText h3{
+  margin-top: 22px;
+  font-size: 22px;
+}
+.homeText p{
+  margin-top: 22px;
+  color: white;
+}
+.homeText button{
+  margin-top: 22px;
+  font-size: 22px;
+  width: 140px;
+  height: 40px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.homeText button:hover{
+  border: 2px solid white;
+  background-color: transparent;
+  color: rgb(135, 206, 235);
+}
+.head{
+  text-align: center;
+  padding: 95px;
+}
+.head span{
+  color: rgb(135, 206, 235);
+}
+.feedback{
+  display: flex;
+  justify-content: center;
+}
+/* plan */
+.ourPlan{
+  display: flex;
+  justify-content: center;
+}
+.ourPlan .card{
+  width: 300px;
+  height: 400px;
+  padding: 4px;
+  background-color: rgb(36, 35, 35);
+  text-align: center;
+  margin-inline: 22px;
+}
+.card i{
+  font-size: 22px;
+  margin-top: 22px;
+  color: orange;
+}
+.card h3{
+  margin-top: 22px;
+  color: rgb(135, 206, 235);
+
+}
+.card h1{
+  margin-top: 22px;
+  color: rgb(135, 206, 235);
+}
+.card p{
+  margin-top: 12px;
+  color: silver;
+}
+.card button{
+  margin-top: 22px;
+  width: 130px;
+  height: 38px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.card button:hover{
+  border: 2px solid white;
+  background-color: transparent;
+  color: rgb(135, 206, 235);
+  cursor: pointer;
+}
+.card:hover{
+  transition: 0.7s ease;
+  width: 310px;
+  height: 440px;
+  background-color: slateblue;
+  font-size: 19px;
+  cursor: pointer;
+
+}
+
+/* blog */
+.ourBlog{
+  display: flex;
+  justify-content: center;
+}
+.ourBlog .blogCard{
+  width: 300px;
+  height: 400px;
+  margin-inline: 22px;
+  background-color: rgb(42, 41, 41);
+   
+}
+
+.blogCard p{
+  margin-top: 22px;
+}
+.blogText a{
+  text-decoration: none;
+  width: 90px;
+  padding: 11px;
+  background-color: skyblue;
+  color: white;
+  position: absolute;
+  margin-top: 22px;
+  cursor: pointer;
+
+}
+.blogText{
+  margin-top: 11px;
+  margin-left: 6px;
+}
+
+/* cantact */
+.contactPage{
+  display: flex;
+  justify-content: center;
+}
+.contactText{
+  margin-left: 33px;
+  color: skyblue;
+  margin-top: 134px;
+  font-size: 32px;
+}
+.contactPage img{
+  width: 40%;
+  margin-left: 80px;
+}
+.contactUs{
+  text-align: center;
+  margin-top: 22px;
+  color: skyblue;
+}
+.contactUs input{
+  width: 350px;
+  padding: 8px;
+  height: 33px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  margin-top: 18px;
+}
+.contactUs button{
+  width: 365px;
+  height: 45px;
+  color: white;
+  border: none;
+  font-size: 22px;
+  background-color: rgb(255, 160, 122);
+  border-radius: 2px;
+  margin-top: 22px;
+}
+.contactUs button:hover{
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: rgb(0, 255, 255);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 53px;
+  padding: 22px;
+  box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+.footer .footerText{
+  margin-inline: 73px;
+  margin-top: 33px;
+}
+.footerText p{
+margin-top: 11px;
+color: white;
+}
+
